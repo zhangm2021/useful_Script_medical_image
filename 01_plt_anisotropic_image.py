@@ -34,6 +34,6 @@ if __name__ == "__main__":
     data1 = np.rot90(d1[105,9:-9,4:56],1)
     data1 = data1[:,::-1] #resolution=1x2 mm^2
     scale_factor = 2
-    save_name = 'ax_view.tiff'
+    save_name = 'xxxx.tiff'
 
     save_fig(data1,aspect=scale_factor,save_name=save_name,vmin=-0.1,vmax=0.1)
